@@ -1,0 +1,36 @@
+//mainWrap
+
+//typeLine
+.agentWrap .typeLine i {
+    background: url('../images/typeLine_line.png') no-repeat center;
+    background-size: contain;
+}
+
+//agent
+.agentWrap .intro_ic {
+    background: url('../images/agent_introIC.png') no-repeat;
+    background-size: 100%;
+}
+
+
+//sideBar
+.sideBar .inviteBtn a {
+    background: url('../images/icon/invite.png') no-repeat center;
+    background-size: contain;
+}
+.sideBar .goTop i {
+    background: url('../images/icon/goTop.png') no-repeat center;
+    background-size: contain;
+}
+
+//jumpWIndow
+.jumpWindow .close_ic {
+    background: url('../images/icon/svg/close.svg') no-repeat;
+    background-size: 100%;
+}
+
+
+//背景
+.bg {
+    background: url('../images/bg.jpg') no-repeat top center;
+}
