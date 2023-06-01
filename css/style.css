@@ -286,625 +286,6 @@ html body .filter .jumpWindow {
 html body .filter .jumpWindow.display {
   display: block;
 }
-html body .filter .jumpWindow.plsGo {
-  width: auto;
-}
-html body .filter .jumpWindow.plsGo .content {
-  width: auto;
-  min-width: 400px;
-  height: auto;
-  padding: 0 32px;
-}
-html body .filter .jumpWindow.plsGo .content p {
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-}
-html body .filter .jumpWindow.plsGo button {
-  width: 270px;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#52119F), to(#BD51F4));
-  background: linear-gradient(to right, #52119F 0%, #BD51F4 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-  display: block;
-  margin: 32px auto;
-}
-html body .filter .jumpWindow.plsGo button:hover, html body .filter .jumpWindow.plsGo button:active, html body .filter .jumpWindow.plsGo button.active {
-  background: #BD51F4;
-}
-html body .filter .jumpWindow.listWindow {
-  width: 840px;
-}
-html body .filter .jumpWindow.listWindow .content {
-  width: 100%;
-  height: auto;
-  padding: 0 32px 32px;
-}
-html body .filter .jumpWindow.listWindow .content .num {
-  color: #6795FF;
-  font-weight: bold;
-  font-size: 20px;
-}
-html body .filter .jumpWindow.listWindow .content table {
-  width: 100%;
-  height: auto;
-  margin-top: 24px;
-}
-html body .filter .jumpWindow.listWindow .content table tr:last-child td {
-  border: none;
-}
-html body .filter .jumpWindow.listWindow .content table tr th {
-  height: auto;
-  border-bottom: solid 2px #EDECFF;
-  position: relative;
-  vertical-align: middle;
-  padding: 10px 0;
-}
-html body .filter .jumpWindow.listWindow .content table tr th::before {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 16px;
-  background: #8A8A8A;
-  right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-html body .filter .jumpWindow.listWindow .content table tr th:last-child::before {
-  display: none;
-}
-html body .filter .jumpWindow.listWindow .content table tr th p {
-  width: 100%;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding: 0 5px;
-}
-html body .filter .jumpWindow.listWindow .content table tr td {
-  width: 25%;
-  height: auto;
-  border-bottom: solid 1px #8A8A8A;
-  vertical-align: middle;
-  position: relative;
-  padding: 15px 0;
-}
-html body .filter .jumpWindow.listWindow .content table tr td::before {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 16px;
-  background: #8A8A8A;
-  right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-html body .filter .jumpWindow.listWindow .content table tr td:last-child::before {
-  display: none;
-}
-html body .filter .jumpWindow.listWindow .content table tr td p {
-  width: 100%;
-  font-size: 14px;
-  font-weight: bold;
-  color: #EDECFF;
-  text-align: center;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding: 0 10px;
-}
-html body .filter .jumpWindow.listWindow .content table tr td p.money {
-  color: #FF7777;
-}
-html body .filter .jumpWindow.passwordWindow {
-  width: 450px;
-}
-html body .filter .jumpWindow.passwordWindow form {
-  width: 100%;
-  height: auto;
-  padding: 0 64px 32px;
-}
-html body .filter .jumpWindow.passwordWindow form ul li {
-  width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-}
-html body .filter .jumpWindow.passwordWindow form ul li input {
-  width: 100%;
-  height: 42px;
-  background: #483F6E;
-  border-radius: 12px;
-  border: none;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding-left: 15px;
-}
-html body .filter .jumpWindow.passwordWindow form ul li input::-webkit-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.passwordWindow form ul li input::-moz-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.passwordWindow form ul li input:-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.passwordWindow form ul li input::-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.passwordWindow form ul li input::placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.passwordWindow form ul li input:focus {
-  outline: solid 2px #ff0000;
-}
-html body .filter .jumpWindow.passwordWindow form button {
-  width: 100%;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#52119F), to(#BD51F4));
-  background: linear-gradient(to right, #52119F 0%, #BD51F4 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-}
-html body .filter .jumpWindow.passwordWindow form button:hover, html body .filter .jumpWindow.passwordWindow form button:active, html body .filter .jumpWindow.passwordWindow form button.active {
-  background: #BD51F4;
-}
-html body .filter .jumpWindow.phoneWindow {
-  width: 640px;
-}
-html body .filter .jumpWindow.phoneWindow form {
-  padding: 32px 120px 48px;
-}
-html body .filter .jumpWindow.phoneWindow form ul {
-  width: 100%;
-  height: auto;
-}
-html body .filter .jumpWindow.phoneWindow form ul li {
-  width: 100%;
-  height: auto;
-  position: relative;
-  margin-bottom: 30px;
-}
-html body .filter .jumpWindow.phoneWindow form ul li p {
-  color: #EDECFF;
-  font-size: 13px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-html body .filter .jumpWindow.phoneWindow form ul li p span {
-  letter-spacing: 1px;
-  margin-left: 10px;
-}
-html body .filter .jumpWindow.phoneWindow form ul li button {
-  width: auto;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#6140B3), to(#469FE3));
-  background: linear-gradient(to right, #6140B3 0%, #469FE3 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-  margin-top: 10px;
-}
-html body .filter .jumpWindow.phoneWindow form ul li button:hover, html body .filter .jumpWindow.phoneWindow form ul li button:active, html body .filter .jumpWindow.phoneWindow form ul li button.active {
-  background: #3894D3;
-}
-html body .filter .jumpWindow.phoneWindow form ul li input {
-  width: 100%;
-  height: 42px;
-  background: #483F6E;
-  border-radius: 12px;
-  border: none;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding-left: 15px;
-}
-html body .filter .jumpWindow.phoneWindow form ul li input::-webkit-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.phoneWindow form ul li input::-moz-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.phoneWindow form ul li input:-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.phoneWindow form ul li input::-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.phoneWindow form ul li input::placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.phoneWindow form ul li input:focus {
-  outline: solid 2px #ff0000;
-}
-html body .filter .jumpWindow.phoneWindow form .check {
-  width: 100%;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#52119F), to(#BD51F4));
-  background: linear-gradient(to right, #52119F 0%, #BD51F4 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-}
-html body .filter .jumpWindow.phoneWindow form .check:hover, html body .filter .jumpWindow.phoneWindow form .check:active, html body .filter .jumpWindow.phoneWindow form .check.active {
-  background: #BD51F4;
-}
-html body .filter .jumpWindow.eventWindow, html body .filter .jumpWindow.checkEvent {
-  width: 800px;
-}
-html body .filter .jumpWindow.eventWindow .content, html body .filter .jumpWindow.checkEvent .content {
-  width: 100%;
-  height: auto;
-  min-height: 500px;
-  padding: 0 48px 32px;
-}
-html body .filter .jumpWindow.eventWindow .content img, html body .filter .jumpWindow.checkEvent .content img {
-  width: 100%;
-  height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-bottom: 20px;
-}
-html body .filter .jumpWindow.eventWindow .content p, html body .filter .jumpWindow.checkEvent .content p {
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 20px;
-}
-html body .filter .jumpWindow.eventWindow button, html body .filter .jumpWindow.checkEvent button {
-  width: 330px;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#52119F), to(#BD51F4));
-  background: linear-gradient(to right, #52119F 0%, #BD51F4 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-  display: block;
-  margin: 0 auto 32px;
-}
-html body .filter .jumpWindow.eventWindow button:hover, html body .filter .jumpWindow.eventWindow button:active, html body .filter .jumpWindow.eventWindow button.active, html body .filter .jumpWindow.checkEvent button:hover, html body .filter .jumpWindow.checkEvent button:active, html body .filter .jumpWindow.checkEvent button.active {
-  background: #BD51F4;
-}
-html body .filter .jumpWindow.betWindow {
-  width: 400px;
-}
-html body .filter .jumpWindow.betWindow form {
-  width: 100%;
-  height: auto;
-  padding: 0 48px 32px;
-}
-html body .filter .jumpWindow.betWindow form .row {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-html body .filter .jumpWindow.betWindow form .row p {
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-html body .filter .jumpWindow.betWindow form .row p.smallTitle {
-  font-size: 30px;
-  margin: 0;
-}
-html body .filter .jumpWindow.betWindow form .row input {
-  width: 100%;
-  height: 42px;
-  background: #483F6E;
-  border-radius: 12px;
-  border: none;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding-left: 15px;
-}
-html body .filter .jumpWindow.betWindow form .row input::-webkit-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.betWindow form .row input::-moz-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.betWindow form .row input:-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.betWindow form .row input::-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.betWindow form .row input::placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.betWindow form .row input:focus {
-  outline: solid 2px #ff0000;
-}
-html body .filter .jumpWindow.betWindow form .row .trans_arrow {
-  width: 24px;
-  height: 21px;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  margin: 0 auto;
-}
-html body .filter .jumpWindow.betWindow form .row .btnBox {
-  width: 100%;
-  height: auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 5px 1fr 5px 1fr;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
-}
-html body .filter .jumpWindow.betWindow form .row .btnBox button {
-  width: auto;
-  height: 36px;
-  background: #3D2F6E;
-  border: none;
-  border-radius: 16px 16px 0 0;
-  color: #EDECFF;
-  font-size: 12px;
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  cursor: pointer;
-  padding: 0 20px;
-  border-radius: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-html body .filter .jumpWindow.betWindow form .row .btnBox button:hover, html body .filter .jumpWindow.betWindow form .row .btnBox button:active, html body .filter .jumpWindow.betWindow form .row .btnBox button.active {
-  background: linear-gradient(-120deg, #6140B3 0%, #469FE3 100%);
-  color: #ffffff;
-}
-html body .filter .jumpWindow.betWindow form .row .check {
-  width: 100%;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#52119F), to(#BD51F4));
-  background: linear-gradient(to right, #52119F 0%, #BD51F4 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-  margin-top: 5px;
-}
-html body .filter .jumpWindow.betWindow form .row .check:hover, html body .filter .jumpWindow.betWindow form .row .check:active, html body .filter .jumpWindow.betWindow form .row .check.active {
-  background: #BD51F4;
-}
-html body .filter .jumpWindow.betWindow form .enter {
-  width: 100%;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#E3C91C), to(#F451BE));
-  background: linear-gradient(to right, #E3C91C 0%, #F451BE 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-  margin-top: 32px;
-}
-html body .filter .jumpWindow.betWindow form .enter:hover, html body .filter .jumpWindow.betWindow form .enter:active, html body .filter .jumpWindow.betWindow form .enter.active {
-  background: #F451BE;
-}
-html body .filter .jumpWindow.news {
-  width: 840px;
-  min-height: 250px;
-}
-html body .filter .jumpWindow.news .content {
-  width: 100%;
-  height: auto;
-  padding: 0 32px 32px;
-}
-html body .filter .jumpWindow.news .content .tabs {
-  width: 100%;
-  height: auto;
-  border-bottom: solid 1px #8A8A8A;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-html body .filter .jumpWindow.news .content .tabs li {
-  width: auto;
-  height: 35px;
-  background: #3D2F6E;
-  border: none;
-  border-radius: 16px 16px 0 0;
-  color: #EDECFF;
-  font-size: 12px;
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  cursor: pointer;
-  padding: 0 20px;
-  margin-right: 8px;
-}
-html body .filter .jumpWindow.news .content .tabs li:hover, html body .filter .jumpWindow.news .content .tabs li:active, html body .filter .jumpWindow.news .content .tabs li.active {
-  background: linear-gradient(-120deg, #6140B3 0%, #469FE3 100%);
-  color: #ffffff;
-}
-html body .filter .jumpWindow.news .content ul:not(.tabs) {
-  display: none;
-  width: 100%;
-  height: auto;
-}
-html body .filter .jumpWindow.news .content ul:not(.tabs).display {
-  display: block;
-}
-html body .filter .jumpWindow.news .content ul:not(.tabs) li {
-  width: 100%;
-  height: 45px;
-  border-bottom: solid 1px #8A8A8A;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 5px;
-}
-html body .filter .jumpWindow.news .content ul:not(.tabs) li p {
-  color: #EDECFF;
-  font-size: 16px;
-  font-weight: bold;
-}
-html body .filter .jumpWindow.news .content ul:not(.tabs) li p .date {
-  color: #BEBEBE;
-  font-size: 12px;
-}
-html body .filter .jumpWindow.forgetPassword {
-  width: 600px;
-}
-html body .filter .jumpWindow.forgetPassword form {
-  width: 100%;
-  height: auto;
-  padding: 0 32px 48px;
-}
-html body .filter .jumpWindow.forgetPassword form label {
-  width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-html body .filter .jumpWindow.forgetPassword form label input {
-  width: 100%;
-  height: 42px;
-  background: #483F6E;
-  border-radius: 12px;
-  border: none;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding-left: 15px;
-  margin-right: 10px;
-}
-html body .filter .jumpWindow.forgetPassword form label input::-webkit-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.forgetPassword form label input::-moz-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.forgetPassword form label input:-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.forgetPassword form label input::-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.forgetPassword form label input::placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.forgetPassword form label input:focus {
-  outline: solid 2px #ff0000;
-}
-html body .filter .jumpWindow.forgetPassword form label button {
-  width: auto;
-  height: 42px;
-  background: -webkit-gradient(linear, left top, right top, from(#6140B3), to(#469FE3));
-  background: linear-gradient(to right, #6140B3 0%, #469FE3 100%);
-  border: none;
-  border-radius: 10px;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 0 15px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-html body .filter .jumpWindow.forgetPassword form label button:hover, html body .filter .jumpWindow.forgetPassword form label button:active, html body .filter .jumpWindow.forgetPassword form label button.active {
-  background: #3894D3;
-}
-html body .filter .jumpWindow.forgetPassword form p {
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 30px;
-}
-html body .filter .jumpWindow.pointWindow {
-  width: 540px;
-}
-html body .filter .jumpWindow.pointWindow .content {
-  width: 100%;
-  height: 200px;
-  text-align: center;
-  padding-top: 45px;
-}
-html body .filter .jumpWindow.pointWindow .content p {
-  color: #EDECFF;
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-html body .filter .jumpWindow.pointWindow .content input {
-  width: 320px;
-  height: 42px;
-  background: #483F6E;
-  border-radius: 12px;
-  border: none;
-  color: #EDECFF;
-  font-size: 14px;
-  font-weight: bold;
-  padding-left: 15px;
-  text-align: center;
-  padding: 0;
-}
-html body .filter .jumpWindow.pointWindow .content input::-webkit-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.pointWindow .content input::-moz-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.pointWindow .content input:-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.pointWindow .content input::-ms-input-placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.pointWindow .content input::placeholder {
-  color: #EDECFF;
-}
-html body .filter .jumpWindow.pointWindow .content input:focus {
-  outline: solid 2px #ff0000;
-}
 html body .filter .jumpWindow.agentWindow {
   width: 985px;
   height: auto;
@@ -1098,6 +479,62 @@ html body .filter .jumpWindow.agentWindow form .enter {
   margin: 15px auto 0;
 }
 html body .filter .jumpWindow.agentWindow form .enter:hover, html body .filter .jumpWindow.agentWindow form .enter:active, html body .filter .jumpWindow.agentWindow form .enter.active {
+  background: #BD51F4;
+}
+html body .filter .jumpWindow.ruleWindow {
+  width: 985px;
+  height: auto;
+}
+html body .filter .jumpWindow.ruleWindow .content {
+  width: 100%;
+  height: auto;
+  padding: 0 48px 32px;
+}
+html body .filter .jumpWindow.ruleWindow .content .textBox {
+  width: 100%;
+  min-height: 280px;
+  height: auto;
+  max-height: 480px;
+  overflow-y: auto;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+}
+html body .filter .jumpWindow.ruleWindow .content .textBox::-webkit-scrollbar {
+  width: 5px;
+}
+html body .filter .jumpWindow.ruleWindow .content .textBox::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 30px;
+}
+html body .filter .jumpWindow.ruleWindow .content .textBox::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 30px;
+}
+html body .filter .jumpWindow.ruleWindow .content .textBox p {
+  color: #EDECFF;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+html body .filter .jumpWindow.ruleWindow .content .textBox p:last-child {
+  margin: 0;
+}
+html body .filter .jumpWindow.ruleWindow .content .close {
+  width: 40%;
+  height: 42px;
+  background: -webkit-gradient(linear, left top, right top, from(#52119F), to(#BD51F4));
+  background: linear-gradient(to right, #52119F 0%, #BD51F4 100%);
+  border: none;
+  border-radius: 10px;
+  color: #EDECFF;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 15px;
+  display: block;
+  margin: 15px auto 0;
+}
+html body .filter .jumpWindow.ruleWindow .content .close:hover, html body .filter .jumpWindow.ruleWindow .content .close:active, html body .filter .jumpWindow.ruleWindow .content .close.active {
   background: #BD51F4;
 }
 html body .filter .jumpWindow .title {
